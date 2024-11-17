@@ -72,24 +72,25 @@ span {
     /*word-wrap: break-word;
       */ /*flex-wrap: wrap;
       */
-    font-size: 20px;
+    font-size: 40px;
     color: #1c2833;
     border-radius: 30px;
     transition: background-color 200ms ease-in-out;
     background-color: #f2f3f4;
-    width: 35em;
-    padding: 20px 20px;
+    width: 35rem;
+    padding: 10px 10px;
     display: grid;
-    grid-template-columns: 1fr 0.3fr 0.3fr;
+    grid-template-columns: 1fr 0.2fr 0.2fr;
     justify-content: start;
     gap: 1.6rem;
+    text-align: center;
     /*align-items: center;
       */ /*wrapsthelinks*/
     overflow-wrap: anywhere;
   }
   
   li span {
-    max-width: 20rem;
+    width: 20rem;
     color: #1c2833;
   }
   
